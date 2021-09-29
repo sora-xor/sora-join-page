@@ -1,0 +1,22 @@
+<head>
+    <script type="text/javascript">
+        var OSName="Unknown OS";
+        if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+        if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+        if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+        if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+
+        if( OSName == "Android" )
+        {
+            window.location="https://play.google.com/store/apps/details?id=jp.co.soramitsu.sora.communitytesting";
+        }
+        else if ( OSName == "iOS" )
+        {
+            window.location="https://testflight.apple.com/join/670hF438";
+        }
+        else
+        {
+            window.location="https://sora.org/#rec229853503";
+        }
+    </script>
+</head>
